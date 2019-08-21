@@ -18,9 +18,7 @@ class Table extends React.Component {
       return (
         <TableRow
           key={id}
-          id={id}
-          name={el.name}
-          gender={el.gender}
+          rowData={el}
           highlighted={highlightedId === id}
           highlightRow={this.highlightRow}
         />
